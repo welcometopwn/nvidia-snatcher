@@ -1,5 +1,44 @@
 # Changelog
 
+## [1.6.0](https://www.github.com/jef/nvidia-snatcher/compare/v1.5.0...v1.6.0) (2020-09-30)
+
+
+### Features
+
+* **store:** add asus strix oc to asus store ([#385](https://www.github.com/jef/nvidia-snatcher/issues/385)) ([e55398e](https://www.github.com/jef/nvidia-snatcher/commit/e55398e789d52def6e15d1e5e10f56cdf5ea5bea))
+* add `norway` to `nvidia-api` ([#304](https://www.github.com/jef/nvidia-snatcher/issues/304)) ([eda6c85](https://www.github.com/jef/nvidia-snatcher/commit/eda6c85fc03a70c5933308e96c572a480bb6c8a0))
+* configurable status code behaviours ([#340](https://www.github.com/jef/nvidia-snatcher/issues/340)) ([3b7487e](https://www.github.com/jef/nvidia-snatcher/commit/3b7487e97ac9d93344403f50153f2de6243b1f0d))
+* enhanced lookup behaviour ([#270](https://www.github.com/jef/nvidia-snatcher/issues/270)) ([b868d1a](https://www.github.com/jef/nvidia-snatcher/commit/b868d1a4833a8ec5ac1c79481530d75cd0c4b01e))
+* in stock wait time per link now ([c7a716f](https://www.github.com/jef/nvidia-snatcher/commit/c7a716f981976a76afe61a4d985bd6fe4343595b))
+* low bandwidth mode ([#294](https://www.github.com/jef/nvidia-snatcher/issues/294)) ([0aa7ab5](https://www.github.com/jef/nvidia-snatcher/commit/0aa7ab596c907ce72c188eb4b1acdee088307437))
+* retry logic for nvidia session token and adding to cart ([#347](https://www.github.com/jef/nvidia-snatcher/issues/347)) ([1bac1b9](https://www.github.com/jef/nvidia-snatcher/commit/1bac1b928d401a819698848f3367edf54836b26f))
+* support for proxy server ([#352](https://www.github.com/jef/nvidia-snatcher/issues/352)) ([fdcd787](https://www.github.com/jef/nvidia-snatcher/commit/fdcd787f91f26229db23e2291e8922b947007902))
+* **notification:** add `to` field for email ([#327](https://www.github.com/jef/nvidia-snatcher/issues/327)) ([8828dd1](https://www.github.com/jef/nvidia-snatcher/commit/8828dd15cd08959cd434bd256e8eac474dd17c49))
+* **notification:** add pushover priority setting ([#186](https://www.github.com/jef/nvidia-snatcher/issues/186)) ([f277172](https://www.github.com/jef/nvidia-snatcher/commit/f2771721914a20619833df8ccb2ac44298687b4d))
+* **notification:** add Twillio notification provider ([#344](https://www.github.com/jef/nvidia-snatcher/issues/344)) ([f2f8d81](https://www.github.com/jef/nvidia-snatcher/commit/f2f8d81498d1acfb9359f4a690962042ec20d166))
+* **store:** add `pny` ([#295](https://www.github.com/jef/nvidia-snatcher/issues/295)) ([f6760d3](https://www.github.com/jef/nvidia-snatcher/commit/f6760d3c65d60eae9e4b1e0fdba34e814f446a4c))
+* **store:** add 3090s to amazon-ca ([#274](https://www.github.com/jef/nvidia-snatcher/issues/274)) ([e992cf4](https://www.github.com/jef/nvidia-snatcher/commit/e992cf4db85f045fc8d03c9b93286fb72bad1061))
+* **store:** add additional cards to all stores ([#286](https://www.github.com/jef/nvidia-snatcher/issues/286)) ([d25a643](https://www.github.com/jef/nvidia-snatcher/commit/d25a643425020fa3f7cd48972360ede17501afeb))
+* **store:** add amazon cards and `cartUrl`s ([#284](https://www.github.com/jef/nvidia-snatcher/issues/284)) ([d69189f](https://www.github.com/jef/nvidia-snatcher/commit/d69189f12c893fb6d88b198d802ff8e36a69bc88))
+* **store:** nvidia debug card for "product details" page ([#337](https://www.github.com/jef/nvidia-snatcher/issues/337)) ([5b8d774](https://www.github.com/jef/nvidia-snatcher/commit/5b8d774b7c7d31d6ba6fc43be3ea7b16a87d2e49))
+
+
+### Bug Fixes
+
+* `amazon.{nl,de}` test urls ([#345](https://www.github.com/jef/nvidia-snatcher/issues/345)) ([589fbbc](https://www.github.com/jef/nvidia-snatcher/commit/589fbbcd34393ceb2bd7c0a8ac391c54e14a21be))
+* `envOrNumber` behavior ([#364](https://www.github.com/jef/nvidia-snatcher/issues/364)) ([7d8897c](https://www.github.com/jef/nvidia-snatcher/commit/7d8897cd9fb9ae0db796fd85da3f2b9d1a9f73af))
+* corrected norway locales ([#356](https://www.github.com/jef/nvidia-snatcher/issues/356)) ([d2476dd](https://www.github.com/jef/nvidia-snatcher/commit/d2476ddb08606545b32b9676e2d299d57ec5cb6a))
+* in stock wait time ([#325](https://www.github.com/jef/nvidia-snatcher/issues/325)) ([07bd246](https://www.github.com/jef/nvidia-snatcher/commit/07bd246e876cd27df1b5019af5ee8613bb5368f0)), closes [#315](https://www.github.com/jef/nvidia-snatcher/issues/315)
+* remove 3090 drid for DK/FI regions ([#361](https://www.github.com/jef/nvidia-snatcher/issues/361)) ([f1d22d1](https://www.github.com/jef/nvidia-snatcher/commit/f1d22d1684c8e70f09acd9978e6ea802d7224c8b))
+* **env:** default `LOG_LEVEL` ([9636572](https://www.github.com/jef/nvidia-snatcher/commit/9636572c7de36f7ac6800ba31ac60fcd7bd2fd03))
+* **notification:** discord false triggers ([#346](https://www.github.com/jef/nvidia-snatcher/issues/346)) ([3b90bbb](https://www.github.com/jef/nvidia-snatcher/commit/3b90bbbe5d751003a39823e9113eaee8cbfcf1a2))
+* **notification:** sms subject output ([#298](https://www.github.com/jef/nvidia-snatcher/issues/298)) ([03755d5](https://www.github.com/jef/nvidia-snatcher/commit/03755d5eb117ac14797e0180c74f50b401e50cb5))
+* **notifications:** twilio client creation ([#349](https://www.github.com/jef/nvidia-snatcher/issues/349)) ([5414b24](https://www.github.com/jef/nvidia-snatcher/commit/5414b249a6f938615cfad02ca22c171a5f86e127))
+* **store:** container names on `nvidia` ([#333](https://www.github.com/jef/nvidia-snatcher/issues/333)) ([772de90](https://www.github.com/jef/nvidia-snatcher/commit/772de900a1386e9635d139e152fe86366404ded4))
+* `nvidia-api` ([#314](https://www.github.com/jef/nvidia-snatcher/issues/314)) ([8d8e5b5](https://www.github.com/jef/nvidia-snatcher/commit/8d8e5b587d2279a95d3e7837a99bea8c5990a477))
+* add `amazon-nl`, captcha `amazon-de`, add ftw3 `newegg` ([#293](https://www.github.com/jef/nvidia-snatcher/issues/293)) ([a2983eb](https://www.github.com/jef/nvidia-snatcher/commit/a2983eb54c419ba3a56abf80d316ea136a05e0fa))
+* denver `microcenter` name ([#296](https://www.github.com/jef/nvidia-snatcher/issues/296)) ([349f55d](https://www.github.com/jef/nvidia-snatcher/commit/349f55d3603517b5741fce6ac42b29141816ea79))
+
 ## [1.5.0](https://www.github.com/jef/nvidia-snatcher/compare/v1.4.0...v1.5.0) (2020-09-24)
 
 
